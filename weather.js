@@ -1,6 +1,6 @@
-const weather = document.querySelector(".js-weather");
+const weather = document.querySelector(".js-weather"); // span의 클래스
 
-const API_KEY = "6cd397b23d8f1c5b4c83ee702d38f558";
+const API_KEY = "6cd397b23d8f1c5b4c83ee702d38f558"; // Use API
 const COORDS = "coords";
 function saveCoords(coordsObj) {
   localStorage.setItem(COORDS, JSON.stringify(coordsObj));
